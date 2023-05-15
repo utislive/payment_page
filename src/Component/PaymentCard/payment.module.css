@@ -11,7 +11,7 @@
 }
 .row
 {
-    background-color: rgb(0, 55, 255);
+   
     height: 10px;
     width: 10px;
     width: 90%;
@@ -62,7 +62,7 @@
   
 }
 .lis{
-    background-color: red;
+    
     
     width: 100%;
 }
@@ -85,23 +85,26 @@
     height: 50px;
     border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
-    background-color: #e14613a6;
+    background-color: #e1461326;
     display: flex;
     flex-direction: column;
 
 }
 .lis:nth-of-type(2) ul
 {
-    background-color: greenyellow;
+    
     height: 40px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    list-style: none;
+    color: red;
 }
 .lis:nth-of-type(2) p
 {
-    background-color: yellow;
+    
+    color: red;
 }
 .lis:nth-of-type(3)
 {
@@ -112,7 +115,49 @@
 {
     height: 100px;
    
+   
 
+}
+.row:nth-of-type(5) ul{
+
+    list-style: none;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row:nth-of-type(5) ul li
+{  
+
+    
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.row:nth-of-type(5) ul li:nth-of-type(1)
+{
+    border: 1px solid#F77171;
+    color:  #F77171;
+    font-weight: 600;
+    
+}
+.row:nth-of-type(5) ul li:nth-of-type(2)
+{
+    background-color:  #47BA68;
+    font-weight: 600;
+    color:white;
+    
+}
+
+.row:nth-of-type(5) img{
+    height: 30px;
+    margin-left: 10px;
 }
 
 

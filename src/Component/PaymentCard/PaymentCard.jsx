@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './payment.module.css'
 
-
+import py from './Frame 12537.png'
 
 const PaymentCard = () => {
 
@@ -81,7 +81,15 @@ const PaymentCard = () => {
          
 
       </nav>
-      <nav className={css.row}></nav>
+      <nav className={css.row}>
+
+        <ul>
+          <li>CANCEL</li>
+          <li>PROCEED TO PAY</li>
+        </ul>
+        
+        <img src={py} alt="" />
+      </nav>
       
       </div>
     </>
