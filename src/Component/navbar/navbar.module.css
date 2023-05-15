@@ -1,0 +1,48 @@
+.main {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstList,
+.secondList {
+  list-style: none;
+  width: 40%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+.firstList li {
+  display: flex;
+  align-items: center;
+}
+.firstList li:nth-of-type(1) {
+  font-size: 38px;
+  font-weight: 900;
+  color: #0096ff;
+  letter-spacing: 3px;
+}
+.firstList li svg {
+  margin-left: 5px;
+}
+
+.secondList li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondList li:nth-of-type(3) {
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  color: white;
+  width: 166px;
+  height: 40px;
+
+  border-radius: 52px;
+}
+.secondList li:nth-of-type(1) svg {
+  height: 18px;
+  width: 18px;
+}

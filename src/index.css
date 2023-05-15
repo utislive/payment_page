@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+#root
+{
+ 
+  height: 100vh;
+}
+.App
+{
+  height: 100vh;
+  background-image: url("https://s3-alpha-sig.figma.com/img/b1d4/ccd3/14d6c433bac91f04aef76b70e9b9fa1d?Expires=1685318400&Signature=CufTgLNiWAY7-HtaazMQwL1raGWunXoqvyAs-Xr7OO-z6MF2Y8bDktaSFf-fGUZETyYOLf9bBtoXeVb-nam6maAcb4NwFApAUBd1KI2jbi9mH-U8BDCLeUJhJMA~ihAyDu6lZccr2xYqRoBDZnnBLheNvmOsQu~L4LJBhJ4kM3v6XVt5qGKYpDQZ-rbe6J68HD-tJ42lidklijvk0H1dtRFdD2u25UsU1mNsiBC7Y2uc8y4qB5WDYIUzJMDoDvEzN9JuEhs4Nb7-IOAOhTnGiI4wkiPrmDg8W9jt9AdtfzFYrxk61QzePhDAnaushClEdRrzUySgkAGuTBIalETw2w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 12fr;
+}
+
+.footter
+{
+  
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+  grid-template-rows: 1fr;
+}
+.LeftBox,.RightBox
+
+{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RightBox
+{
+  background-color: yellow;
+}
